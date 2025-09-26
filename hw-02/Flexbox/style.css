@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+    padding: 50px 50px 50px 50px;
+    font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    gap: 40px;
+    background: #ece8e1;
+}
+
+.BigBlock {
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner {
+    gap: 80px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 45px;
+    border-radius: 20px;
+    background: #0f1923;
+    box-shadow: 0 5px 10px #080d12;
+}
+
+.title {
+    padding: 0%;
+    font-size: 40px;
+    max-width: 400px;
+    text-align: center;
+    color: #ece8e1;
+}
+
+.description {
+    padding: 0%;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #ece8e1;
+}
+
+.ButtonPlace {
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    max-width: 700px;
+}
+
+.button1 {
+    padding: 15px 30px;
+    color: #ece8e1;
+    font-weight: 500;
+    border-radius: 20px;
+    border-color: #ece8e1;
+    border-style: outset;
+    background: #ff4655;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button2 {
+    padding: 15px 30px;
+    color: #ff4655;
+    font-weight: 500;
+    border-radius: 20px;
+    border-color: #ece8e1;
+    border-style: outset;
+    background: #0f1923;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button1:hover {
+    padding: 15px 30px;
+    color: #ece8e1;
+    font-weight: 500;
+    border-radius: 20px;
+    border-color: #ece8e1;
+    border-style: solid;
+    background: #fb6f7a;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button2:hover {
+    padding: 15px 30px;
+    color: #ff4655;
+    font-weight: 500;
+    border-radius: 20px;
+    border-color: #ece8e1;
+    border-style: solid;
+    background: #1f2e3d;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button1:active {
+    padding: 15px 30px;
+    color: #ff4655;
+    font-weight: 500;
+    border-radius: 20px;
+    border-color: #ece8e1;
+    border-style: inset;
+    background: #0f1923;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button2:active {
+    padding: 15px 30px;
+    color: #ece8e1;
+    font-weight: 500;
+    border-radius: 20px;
+    border-color: #ece8e1;
+    border-style: inset;
+    background: #0f1923;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Picture {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+    max-width: 500px;
+}

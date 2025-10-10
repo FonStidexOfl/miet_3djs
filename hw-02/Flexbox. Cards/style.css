@@ -12,31 +12,31 @@ body {
     background: #0f1923;
 }
 
-.header{
+.Header{
     gap: 50px;
     text-align: center;
     display: flex;
     flex-direction: column;
 }
 
-.titlesmall1{
+.TitleSmall1{
     font-size: 14px;
     font-style: oblique;
     color: #ece8e1;
 }
 
-.titlebig{
+.TitleBig{
     font-size: 28px;
     color: #ff4655;
 }
 
-.titlesmall2{
+.TitleSmall2{
     font-size: 14px;
     font-style: oblique;
     color: #ece8e1;
 }
 
-.conteiner1 {
+.Conteiner1 {
     gap: 80px;
     display: flex;
     flex-direction: row;
@@ -48,7 +48,7 @@ body {
     box-shadow: 0 5px 10px #080d12;
 }
 
-.BigBlock1 {
+.BigBlock {
     gap: 20px;
     display: flex;
     justify-content: center;
@@ -56,21 +56,54 @@ body {
     flex-direction: row;
 }
 
-.box {
+.Box {
     gap: 20px;
     padding: 20px;
     border-radius: 20px;
     background: #ece8e1;
 }
 
-.Picture1 {
+.Picture {
     max-width: 300px;
     max-height: 500px;
     object-fit: cover;
     border-radius: 20px;
 }
 
-.agenttitle {
+.PictureHolder {    
+    display: flex;
+    flex-direction: row;
+
+}
+
+.AbilityIcon {
+    max-width: 64px;
+    max-height: 64px;
+    padding: 3.8px;
+    justify-content: center;
+    background-color: #0f1923;
+    border-radius: 10px;
+}
+
+.AbilityIcon:hover {
+    max-width: 64px;
+    max-height: 64px;
+    padding: 3.8px;
+    justify-content: center;
+    background-color: #203344;
+    border-radius: 10px;
+}
+
+.AbilityIcon:active {
+    max-width: 64px;
+    max-height: 64px;
+    padding: 3.8px;
+    justify-content: center;
+    background-color: #ff4655;
+    border-radius: 10px;
+}
+
+.AgentTitle {
     gap: 0px;
     background: #ece8e1;
     max-height: 100px;
@@ -81,40 +114,79 @@ body {
     color: black;
 }
 
-.agentname1 {
+.AgentName {
     font-size: 30px;
     font-weight: 500;
     margin: 0;
 }
 
-.role {
+.Role {
     font-size: 18px;
     margin: 0;
 }
 
-.arrow1 {
-    align-items: center;
+.ButtonPlace1 {
+    position: absolute;
     margin: 250px 0 0 0;
     width: 40px;
     height: 40px;
-    position: absolute;
     border-radius: 5px;
     background: #ff4655;
 }
 
-.arrowtext {
+.ButtonText {
     margin: -20px;
     color: #ece8e1;
     font-weight: bold;
     font-size: 50px;
 }
 
-.arrow2 {
+.ButtonPlace2 {
+    position: absolute;
+    margin: 250px -1340px 0 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background: #ff4655;
+    cursor: pointer;
+}
+
+.ButtonPlace1:hover {
+    align-items: center;
+    margin: 250px 0 0 0;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 5px;
+    background: #fb6f7a;
+}
+
+.ButtonPlace1:active {
+    align-items: center;
+    margin: 250px 0 0 0;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 5px;
+    background: #f8182b;
+}
+
+.ButtonPlace2:hover {
     align-items: center;
     margin: 250px -1340px 0 0;
     width: 40px;
     height: 40px;
     position: absolute;
     border-radius: 5px;
-    background: #ff4655;
+    background: #fb6f7a;
+}
+
+.ButtonPlace2:active {
+    align-items: center;
+    margin: 250px -1340px 0 0;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 5px;
+    background: #f8182b;
 }

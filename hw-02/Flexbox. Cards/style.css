@@ -127,7 +127,7 @@ body {
 
 .ButtonPlace1 {
     position: absolute;
-    margin: 250px 0 0 0;
+    margin: 230px 0 0 0;
     width: 40px;
     height: 40px;
     border-radius: 5px;
@@ -189,4 +189,54 @@ body {
     position: absolute;
     border-radius: 5px;
     background: #f8182b;
+}
+
+.SmallBlock {
+    align-items: center; 
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 100px;
+}
+
+.SmallBox {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px #7a7a7a;
+    background-color: #ece8e1;
+}
+
+.Icon {
+    max-width: 125px;
+    border-radius: 5px;
+}
+
+.SmallBlockBright {
+    align-items: center; 
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 100px;
+    background-color: #ece8e1;
+}
+
+.SmallBoxDark {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px #1a1a1a;
+    background-color: #0f1923;
+}
+
+p.TextBright {
+    color: #ece8e1;
 }

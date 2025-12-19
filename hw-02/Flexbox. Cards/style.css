@@ -40,7 +40,6 @@ body {
     gap: 80px;
     display: flex;
     flex-direction: row;
-    max-width: 1000px;
     justify-content: space-around;
     align-items: center;
     padding: 45px;
@@ -127,7 +126,7 @@ body {
 
 .ButtonPlace1 {
     position: absolute;
-    margin: 230px 0 0 0;
+    margin: 250px 0 0 0;
     width: 40px;
     height: 40px;
     border-radius: 5px;
@@ -221,7 +220,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    padding: 100px;
+    padding-top: 100px;
     background-color: #ece8e1;
 }
 
